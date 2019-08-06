@@ -16,7 +16,7 @@ services:
     build: ./backend-node
     image: ctftraining/de1ctf_2019_web_9calc:backend_node
     volumes:
-      - ./flag:/flag
+      - ./flags/flag1:/flag
     # mem_limit: 200M
     restart: always
     networks:
@@ -28,7 +28,7 @@ services:
     ulimits:
       nproc: 15
     volumes:
-      - ./flag:/flag
+      - ./flags/flag2:/flag
     # mem_limit: 200M
     restart: always
     networks:
@@ -38,7 +38,7 @@ services:
     build: ./backend-php
     image: ctftraining/de1ctf_2019_web_9calc:backend_php
     volumes:
-      - ./flag:/flag
+      - ./flags/flag3:/flag
     # mem_limit: 200M
     restart: always
     networks:
