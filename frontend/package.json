@@ -31,7 +31,7 @@
     "bson": "^4.0.2",
     "class-transformer": "^0.2.0",
     "class-validator": "^0.9.1",
-    "hbs": "^4.0.4",
+    "hbs": "^4.1.1",
     "helmet": "^3.16.0",
     "reflect-metadata": "^0.1.12",
     "rimraf": "^2.6.2",
