@@ -34,7 +34,7 @@
     "hbs": "^4.0.4",
     "helmet": "^3.16.0",
     "reflect-metadata": "^0.1.12",
-    "rimraf": "^2.6.2",
+    "rimraf": "^4.0.0",
     "rxjs": "^6.3.3"
   },
   "devDependencies": {
